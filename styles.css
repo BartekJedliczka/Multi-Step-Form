@@ -1,0 +1,31 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  width: 1440px;
+  height: 3202px;
+}
+:root {
+  --font-family-main: "DM Sans", sans-serif;
+  --text-color-primary: #4a3aff;
+  --text-color-secondary: #f3f1ff;
+  --text-color-800: #170f49;
+  --text-color-700: #514f6e;
+  --text-color-600: #6f6c90;
+  --text-color-500: #a0a3bd;
+  --text-color-400: #d9dbe9;
+  --text-color-300: #eff0f6;
+  --text-color-200: #f7f7fb;
+  --text-color-100: #ffffff;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo-black-theme {
+  /* font-family: "DM Sans", sans-serif; */
+  color: var(--text-color-2);
+}
+
+.logo-blue-theme {
+  color: var(--text-color-1);
+}
