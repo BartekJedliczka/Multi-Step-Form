@@ -17,15 +17,43 @@ body {
   --text-color-100: #ffffff;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1242px;
+}
+.container-header {
+  display: flex;
+  align-items: center;
+}
 .logo {
+  display: flex;
   text-decoration: none;
 }
 
+.logo-theme {
+  margin-right: 16px;
+}
+
 .logo-black-theme {
-  /* font-family: "DM Sans", sans-serif; */
-  color: var(--text-color-2);
+  color: var(--text-color-800);
+  font-size: 33px;
+  font-weight: 800;
+  margin-right: 7px;
 }
 
 .logo-blue-theme {
-  color: var(--text-color-1);
+  color: var(--text-color-primary);
+  font-size: 33px;
+  font-weight: 800;
+}
+
+.button {
+  border: none;
+  color: var(--text-color-100);
+  background-color: var(--text-color-primary);
+  font-weight: 100;
+  padding: 20px 40px;
+  border-radius: 56px;
+  box-shadow: 0px 3px 3px rgb(74, 58, 255, 0.12);
 }
